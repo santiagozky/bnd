@@ -1,4 +1,4 @@
-package test.http;
+package aQute.bnd.deployer.http;
 
 import java.io.*;
 
@@ -10,7 +10,9 @@ import org.eclipse.jetty.io.*;
 import org.eclipse.jetty.server.*;
 import org.eclipse.jetty.server.handler.*;
 import org.eclipse.jetty.util.resource.*;
+import org.junit.*;
 
+@Ignore
 public class ETaggingResourceHandler extends ResourceHandler {
 
 	MimeTypes	_mimeTypes	= new MimeTypes();

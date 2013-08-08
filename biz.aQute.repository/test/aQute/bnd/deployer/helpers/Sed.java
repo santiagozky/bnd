@@ -1,8 +1,11 @@
-package test.helpers;
+package aQute.bnd.deployer.helpers;
 
 import java.io.*;
 import java.util.zip.*;
 
+import org.junit.*;
+
+@Ignore
 public class Sed {
 	private static void processObrFileInternal(BufferedReader reader, String searchPattern, String replacementPattern,
 			OutputStream out) throws Exception {

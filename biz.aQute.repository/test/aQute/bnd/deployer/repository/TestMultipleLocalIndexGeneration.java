@@ -7,7 +7,7 @@ import junit.framework.*;
 
 import org.osgi.impl.bundle.bindex.*;
 
-import test.lib.*;
+import aQute.bnd.deployer.helpers.*;
 import aQute.bnd.osgi.*;
 import aQute.bnd.service.*;
 import aQute.bnd.service.RepositoryPlugin.PutResult;

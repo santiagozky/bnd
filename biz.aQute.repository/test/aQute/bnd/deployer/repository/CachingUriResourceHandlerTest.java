@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.*;
 
 import junit.framework.*;
-import test.lib.*;
+import aQute.bnd.deployer.helpers.*;
 import aQute.bnd.deployer.http.*;
 import aQute.lib.io.*;
 

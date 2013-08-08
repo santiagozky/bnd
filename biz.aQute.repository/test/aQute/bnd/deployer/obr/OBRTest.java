@@ -5,8 +5,7 @@ import java.net.*;
 import java.util.*;
 
 import junit.framework.*;
-import test.helpers.*;
-import test.lib.*;
+import aQute.bnd.deployer.helpers.*;
 import aQute.bnd.deployer.repository.providers.*;
 import aQute.bnd.osgi.*;
 import aQute.bnd.service.*;

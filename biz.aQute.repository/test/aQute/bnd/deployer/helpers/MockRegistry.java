@@ -1,9 +1,12 @@
-package test.lib;
+package aQute.bnd.deployer.helpers;
 
 import java.util.*;
 
+import org.junit.*;
+
 import aQute.bnd.service.*;
 
+@Ignore
 public class MockRegistry implements Registry {
 
 	private final Set<Object>	plugins	= new HashSet<Object>();

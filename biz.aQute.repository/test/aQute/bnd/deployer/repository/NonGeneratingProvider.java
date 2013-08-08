@@ -1,18 +1,20 @@
-package test.repository;
+package aQute.bnd.deployer.repository;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
+import org.junit.*;
 import org.osgi.service.log.*;
 
 import aQute.bnd.deployer.repository.api.*;
 import aQute.bnd.service.*;
 
-public class FailingGeneratingProvider implements IRepositoryContentProvider {
+@Ignore
+public class NonGeneratingProvider implements IRepositoryContentProvider {
 
 	public String getName() {
-		return "Fail";
+		return "Nongenerating";
 	}
 
 	public void parseIndex(InputStream stream, URI baseUrl, IRepositoryIndexProcessor listener, LogService log)
@@ -23,12 +25,12 @@ public class FailingGeneratingProvider implements IRepositoryContentProvider {
 	}
 
 	public boolean supportsGeneration() {
-		return true;
+		return false;
 	}
 
 	public void generateIndex(Set<File> files, OutputStream output, String repoName, URI rootUrl, boolean pretty,
 			Registry registry, LogService log) throws Exception {
-		throw new UnsupportedOperationException("This always breaks");
+		throw new UnsupportedOperationException("I told you I don't support this!");
 	}
 
 	public String getDefaultIndexName(boolean pretty) {

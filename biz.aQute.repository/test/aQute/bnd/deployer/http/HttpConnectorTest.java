@@ -16,7 +16,6 @@ import org.eclipse.jetty.server.ssl.*;
 import org.eclipse.jetty.util.security.*;
 import org.eclipse.jetty.util.ssl.*;
 
-import test.http.*;
 import aQute.bnd.service.url.*;
 import aQute.lib.io.*;
 

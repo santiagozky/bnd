@@ -1,4 +1,4 @@
-package test.lib;
+package aQute.bnd.deployer.helpers;
 
 import java.io.*;
 import java.net.*;
@@ -6,6 +6,8 @@ import java.security.*;
 import java.util.*;
 
 import javax.net.ssl.*;
+
+import org.junit.*;
 
 import aQute.lib.io.*;
 
@@ -58,6 +60,7 @@ import aQute.lib.io.*;
  * licence)
  */
 @SuppressWarnings("synthetic-access")
+@Ignore
 public class NanoHTTPD {
 	// ==================================================
 	// API parts
