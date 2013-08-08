@@ -60,6 +60,7 @@ Git-SHA:                ${system-allow-fail;git rev-list -1 HEAD}
 
 repo:                   ${workspace}/cnf/repo
 releaserepo:            ${workspace}/dist/bundles
+junitrepo:              ${workspace}/cnf/junitrepo
 
 copyright:              Copyright (c) aQute (2000, ${tstamp;yyyy}). All Rights Reserved.
 copyright.html:         Copyright &copy; aQute (2000, ${tstamp;yyyy}). All Rights Reserved.
