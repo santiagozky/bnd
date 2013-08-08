@@ -1,1 +1,1 @@
--buildpath: junit+junit; version=3.8
+-buildpath: junit+junit; version=4.11

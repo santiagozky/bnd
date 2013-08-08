@@ -1,12 +1,13 @@
 -buildpath: osgi.core;version=4.2,\
 	osgi.r5;version=1.0.1,\
-	junit.osgi,\
 	biz.aQute.bndlib;version=snapshot,\
 	biz.aQute.repository;version=snapshot,\
 	ee.j2se;version=${javac.ee},\
 	org.mockito.mockito-all,\
 	org.apache.felix.resolver,\
-	osgi.cmpn
+	osgi.cmpn,\
+	${junitrepo}/org.junit/junit-latest.jar;version=file,\
+	${junitrepo}/org.hamcrest/hamcrest-core-latest.jar;version=file
 
 Bundle-Version: 0.1.0.${tstamp}_${Git-Descriptor}
 

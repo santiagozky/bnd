@@ -1,9 +1,11 @@
--buildpath: com.springsource.org.junit,\
+-buildpath:\
 	osgi.cmpn;version=4.2.1,\
 	biz.aQute.bndlib;version=project,\
 	aQute.libg;version=project,\
 	osgi.core;version=4.2.1,\
-	ee.j2se;version=${javac.ee}
+	ee.j2se;version=${javac.ee},\
+	${junitrepo}/org.junit/junit-latest.jar;version=file,\
+	${junitrepo}/org.hamcrest/hamcrest-core-latest.jar;version=file
 	
 Tester-Plugin: aQute.junit.plugin.ProjectTesterImpl
 
@@ -13,8 +15,8 @@ Private-Package: aQute.junit.*,\
 	junit.*,\
 	org.junit.*
 	
-Export-Package: junit.framework; version=3.8,\
-				org.junit.*;version=4.10, \
+Export-Package: junit.framework; version=4.11,\
+				org.junit.*;version=4.11, \
 				org.hamcrest.*;version=1.0.0
 
 # The dependency on aQute packages is only for the 

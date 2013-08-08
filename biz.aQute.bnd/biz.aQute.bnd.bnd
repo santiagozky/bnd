@@ -19,7 +19,7 @@ Export-Package: aQute.bnd.service.*,\
 	org.osgi.resource
 
 Import-Package: org.apache.tools.ant.*;resolution:=optional,\
-	junit.framework;resolution:=optional;version='[3.8,4)',\
+	junit.framework;resolution:=optional;version='[4.11,5)',\
 	*
 
 Main-Class: 					aQute.bnd.main.bnd

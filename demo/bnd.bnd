@@ -26,7 +26,8 @@ Import-Package: \
 
 -buildpath: osgi.core,\
 	ee.j2se;version=1.5.0,\
-	junit.osgi
+	${junitrepo}/org.junit/junit-latest.jar;version=file,\
+	${junitrepo}/org.hamcrest/hamcrest-core-latest.jar;version=file
 	
 javac.target=1.5
 javac.source=1.5

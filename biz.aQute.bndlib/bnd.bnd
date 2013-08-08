@@ -39,12 +39,14 @@ Conditional-Package:	        aQute.service.*, aQute.configurable
 Include-Resource: 				LICENSE, img/=img/
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 
--buildpath: com.springsource.junit,\
+-buildpath:\
 	osgi.cmpn;version=4.3,\
 	aQute.libg;version=project,\
 	osgi.core;version=4.1,\
 	osgi.r5;version=1.0.1,\
-	ee.j2se;version=${javac.ee}
+	ee.j2se;version=${javac.ee},\
+	${junitrepo}/org.junit/junit-latest.jar;version=file,\
+	${junitrepo}/org.hamcrest/hamcrest-core-latest.jar;version=file
 
 Bundle-Version: 2.2.0.${tstamp;yyyyMMdd-HHmmss}
 Import-Package: junit.framework;resolution:=optional,\

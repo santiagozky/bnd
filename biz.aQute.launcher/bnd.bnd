@@ -1,8 +1,9 @@
 -buildpath: biz.aQute.bndlib;version=project,\
 	aQute.libg;version=project,\
 	osgi.core;version=4.2.1,\
-	junit.osgi;version=3.8.2,\
-	ee.j2se;version=${javac.ee}
+	ee.j2se;version=${javac.ee},\
+	${junitrepo}/org.junit/junit-latest.jar;version=file,\
+	${junitrepo}/org.hamcrest/hamcrest-core-latest.jar;version=file
 #	ee.minimum;version=1.2.1
 	
 	
