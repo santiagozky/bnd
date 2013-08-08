@@ -1,11 +1,12 @@
-package test.lib;
+package biz.aQute.resolve.internal.helpers;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
-import aQute.bnd.service.Registry;
+import org.junit.*;
 
+import aQute.bnd.service.*;
+
+@Ignore
 public class MockRegistry implements Registry {
 
     private final List<Object> plugins = new LinkedList<Object>();

@@ -1,19 +1,16 @@
-package test.lib;
+package biz.aQute.resolve.internal.helpers;
 
-import java.io.File;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.net.*;
+import java.util.*;
 
-import org.osgi.resource.Capability;
-import org.osgi.resource.Resource;
-import org.osgi.service.repository.Repository;
+import org.junit.*;
+import org.osgi.resource.*;
+import org.osgi.service.repository.*;
 
-import aQute.bnd.deployer.repository.AbstractIndexedRepo;
-import aQute.bnd.deployer.repository.FixedIndexedRepo;
+import aQute.bnd.deployer.repository.*;
 
+@Ignore
 public class Utils {
 
     public static Repository createRepo(File index) {

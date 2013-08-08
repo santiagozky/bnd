@@ -1,6 +1,6 @@
 package biz.aQute.resolve.internal;
 
-import static test.lib.Utils.*;
+import static biz.aQute.resolve.internal.helpers.Utils.*;
 
 import java.io.*;
 import java.util.*;
@@ -11,12 +11,12 @@ import org.osgi.resource.*;
 import org.osgi.service.log.*;
 import org.osgi.service.repository.*;
 
-import test.lib.*;
 import aQute.bnd.build.model.*;
 import aQute.bnd.build.model.clauses.*;
 import aQute.bnd.header.*;
 import aQute.bnd.osgi.resource.*;
 import aQute.bnd.service.resolve.hook.*;
+import biz.aQute.resolve.internal.helpers.*;
 
 public class BndrunResolveContextTest extends TestCase {
 

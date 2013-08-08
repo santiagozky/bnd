@@ -1,6 +1,6 @@
 package biz.aQute.resolve.internal;
 
-import static test.lib.Utils.*;
+import static biz.aQute.resolve.internal.helpers.Utils.*;
 
 import java.io.*;
 import java.util.*;
@@ -14,9 +14,9 @@ import org.osgi.resource.*;
 import org.osgi.service.log.*;
 import org.osgi.service.resolver.*;
 
-import test.lib.*;
 import aQute.bnd.build.model.*;
 import aQute.bnd.osgi.resource.*;
+import biz.aQute.resolve.internal.helpers.*;
 
 public class ResolveTest extends TestCase {
 
