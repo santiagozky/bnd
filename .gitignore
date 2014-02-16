@@ -13,3 +13,13 @@ buildfiles
 .ant-targets-build.xml
 biz.aQute.jpm/global/
 cnf/plugins/biz.aQute.bnd/biz.aQute.bnd-2.2.0.jar
+
+
+# this directory contains the gradle cache
+/.gradle/
+
+# a '--profile' run of gradle puts the reports here
+/generated/
+
+# an aborted '--profile' run of gradle sometimes puts the reports here
+/reports/
