@@ -1,0 +1,8 @@
+/**
+ * Override build settings for the project
+ */
+
+assert(project != rootProject)
+
+
+ext.gradleBuild_javadocDir = "javadoc.cnf"

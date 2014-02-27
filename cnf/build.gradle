@@ -1,0 +1,17 @@
+/*
+ * A java project with bnd layout
+ */
+
+assert(project != rootProject)
+
+
+apply plugin: "java"
+
+
+assert(rootProject.hasProperty("bnd_cnf"))
+
+/* Setup the bnd project layout */
+apply from: rootProject.file("$rootProject.bnd_cnf/gradle/template/bndLayout.gradle")
+
+/* Add tasks that are relevant to Java projects */
+apply from: rootProject.file("$rootProject.bnd_cnf/gradle/template/javaProject.gradle")
